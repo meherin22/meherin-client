@@ -1,0 +1,18 @@
+meherin-client/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── OrderForm.js
+│   ├── firebase.js
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+cd path/to/meherin-client
+git init
+git add .
+git commit -m "Initial commit with client order form"
+git remote add origin https://github.com/meherin22/meherin-client.git
+git branch -M main
+git push -u origin main
